@@ -36,6 +36,8 @@ The created two preprocessed datasets of training, validation and testing, are t
 -> Loss Function: Binary Cross Entropy.\
 -> Metrics: Binary Accuracy with threshold set to 0.5.
 
+![model_1](https://github.com/Kiran-Inagadapa/Binary-Classification-of-Glormerulus-WSI-images-into-globally-sclerotic-and-non-globally-sclerotic/assets/124871182/b1348704-7e2a-441a-9a45-c49e034a1ee7)
+
 ##### link to access the Base Learner model-1:
 ### Base Learner 2: InceptionV3 trained on images preprocessed with edge detection:
 -> The standard input size for InceptionV3 with ImageNet weights is (299,299,3) and the input dataset should be preprocessed with 'tf.keras.applications.inception_v3.preprocess_input'.\
@@ -43,6 +45,8 @@ The created two preprocessed datasets of training, validation and testing, are t
 -> Optimizer: Stochastic Gradient Descent.\
 -> Loss Function: Binary Cross Entropy.\
 -> Metrics: Binary Accuracy with threshold set to 0.5.
+
+![model](https://github.com/Kiran-Inagadapa/Binary-Classification-of-Glormerulus-WSI-images-into-globally-sclerotic-and-non-globally-sclerotic/assets/124871182/94570019-45a6-4376-ae69-10e69f5fa425)
 
 ##### link to access the Base Learner model-2:
 ### Meta Learner: Binary Logistic Regression trained on the predictions of the Base Learners:

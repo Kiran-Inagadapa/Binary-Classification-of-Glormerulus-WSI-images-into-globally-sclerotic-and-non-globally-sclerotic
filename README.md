@@ -2,10 +2,10 @@
 
 To solve the problem, two approaches were followed:
 
-## Stack Ensemble Method with two Base Learners and a Meta Learner:
+## 1. Stack Ensemble Method with two Base Learners and a Meta Learner:
 #### link to folder: [link]()
 A README.md file is included in the Folder, that explains the implementation of this solution
 
-## ResNet50V2:
+## 2. ResNet50V2:
 #### link to folder: [link]()
 A README.md file is included in the Folder, that explains the implementation of this solution

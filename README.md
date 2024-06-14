@@ -23,9 +23,16 @@ Based on the observations, Preprocessing is employed to create two different set
 3. Edge Detections using Canny
 
 
-The created two preprocessed datasets of training, validation and testing, are then used to train two different Base Learner models.
+The created two preprocessed datasets of training, validation and testing, are then used to train two different Base Learner models. The Base Learner models are ResNet50V2 adn InceptionV3, both these Image Classification CNNs are pretrained on ImageNet Dataset and have shown very promising results with minimal computational resource requirements.
 
 ## Binary Classification using Stack Ensemble Technique with two Base Learners and a Meta Learner:
-### Base Learner 1: ResNet50V2 trained on color enhanced images
-### Base Learner 2: InceptionV3 trained on images preprocessed with edge detection
-### Meta Learner: Binary Logistic Regression trained on the predictions of the Base Learners
+### Base Learner 1: ResNet50V2 trained on color enhanced images:
+-> Nothing
+
+##### link to access the Base Learner model-1:
+### Base Learner 2: InceptionV3 trained on images preprocessed with edge detection:
+
+##### link to access the Base Learner model-2:
+### Meta Learner: Binary Logistic Regression trained on the predictions of the Base Learners:
+
+##### link to access the Meta Learner:

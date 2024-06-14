@@ -7,10 +7,10 @@ The Dataset Images are glomerulus identified from kidney biopsy images (Whole Sl
 Stack Ensemble Modeling is a technique used to improve predictive performance by combining multiple models (Base Learners), whose predictions are used train a Meta Learner to learn how to best combine the predictions of several base models.
 
 ### Observations made from the dataset:
-1. Globally Sclerotic Glomeruli are homogeneously pink while Non-Globally Sclerotic Glomeruli have lot of details at the center
-2. Globally Sclerotic Glomeruli have a thin wall around compared to the thick wall observed in Non Globally Sclerotic Glomeruli
+1. Globally Sclerotic Glomeruli are homogeneously pink while Non-Globally Sclerotic Glomeruli have lot of details at the center.
+2. Globally Sclerotic Glomeruli have a thin wall around compared to the thick wall observed in Non Globally Sclerotic Glomeruli.
 
-Based on the observations, Preprocessing is employed to create two different sets of training, validation and testing datasets. The first preprocessing involves enhancing the color for training. The second preprocessing involves extracting the structure and patterns in the images.
+Based on the observations, Preprocessing is employed to create two different sets of training, validation and testing datasets. The first preprocessing involves enhancing the color for training. The second preprocessing involves extracting the structure and patterns in the images. Also, Data Augumentation is implemented to create more variation in the dataset. In Augumentaion, Horizontal flip, Vertical flip and Rotation were implemented.
 
 ### Techniques employed for preprocessing to enhance Colors:
 1. Equalized Histogram
@@ -21,7 +21,6 @@ Based on the observations, Preprocessing is employed to create two different set
 1. Dilation and Erosion
 2. Gaussian bluring
 3. Edge Detections using Canny
-
 
 The created two preprocessed datasets of training, validation and testing, are then used to train two different Base Learner models. The Base Learner models are ResNet50V2 adn InceptionV3, both these Image Classification CNNs are pretrained on ImageNet Dataset and have shown very promising results with minimal computational resource requirements.
 

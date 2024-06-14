@@ -7,5 +7,5 @@ To solve the problem, two approaches were followed:
 A README.md file is included in the Folder, that explains the implementation of this solution
 
 ## 2. ResNet50V2:
-#### link to folder: [link]()
+#### link to folder: [link](https://github.com/Kiran-Inagadapa/Binary-Classification-of-Glormerulus-WSI-images-into-globally-sclerotic-and-non-globally-sclerotic/tree/main/RESNET50V2)
 A README.md file is included in the Folder, that explains the implementation of this solution

@@ -12,12 +12,12 @@ Stack Ensemble Modeling is a technique used to improve predictive performance by
 
 Based on the observations, Preprocessing is employed to create two different sets of training, validation and testing datasets. The first preprocessing involves enhancing the color for training. The second preprocessing involves extracting the structure and patterns in the images.
 
-###Techniques employed for preprocessing to enhance Colors:
+### Techniques employed for preprocessing to enhance Colors:
 1. Equalized Histogram
 2. Saturation Adjustments
 3. Hue Adjustments
 
-###Techniques employed for preprocessing to extract structure and patterns:
+### Techniques employed for preprocessing to extract structure and patterns:
 1. Dilation and Erosion
 2. Gaussian bluring
 3. Edge Detections using Canny

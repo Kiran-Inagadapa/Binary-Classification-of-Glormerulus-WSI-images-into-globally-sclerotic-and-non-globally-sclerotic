@@ -21,7 +21,7 @@ Based on the observations, Preprocessing is employed to create a set of training
 
 ## Binary Classification using ResNet50V2:
 ### Base Learner 1: ResNet50V2 trained on color enhanced images:
-#### link to access the Base Learner model-1: [link]()
+#### link to access the Base Learner model-1: [ResNet50V2 model](https://drive.google.com/file/d/1-ZKZZzFZRlRcLL2IGyOcKyWHZKnqgbGP/view?usp=drive_link)
 -> The standard input size for ResNet50V2 with ImageNet weights is (224,224,3) and the input dataset should be preprocessed with 'tf.keras.applications.resnet.preprocess_input'.\
 -> ResNet50V2 is pretrained on ImageNet Dataset which consists of 1000 classes, to suit this CNN to our Binary Classification requirements, three more layers were added on top, one is Global Average Pooling 2D Layer, A Dropout layer with Regularization parameter set to 0.3, A prediction layer with sigmoid activation that gives a binary output.\
 -> Since the dataset is only 5757 images and the entire 190 layers in the ResNet50V2 cannot be trained with such small dataset, the lower 140 layers are set not to train and the rest top layers are trained.\
@@ -37,3 +37,5 @@ Based on the observations, Preprocessing is employed to create a set of training
 
 #### Plot for Training and Validation Loss:
 ![download_2](https://github.com/Kiran-Inagadapa/Binary-Classification-of-Glormerulus-WSI-images-into-globally-sclerotic-and-non-globally-sclerotic/assets/124871182/7095fc53-3576-4ab9-a599-6a91a286f924)
+
+-> Accuracy: 0.9265

@@ -72,22 +72,32 @@ To store the best two learned models out of the each 7 epochs run on each Base L
 ### Meta Learner: Experimented Multiple Algorithms for Meta Learner Model:
 #### Meta Learner Model 1: Random Forest Classifier:
 ##### link to access the Model: [link]()
+-> Accuracy on validation: 0.78\
+-> Confusion Matrix on validation: [[562, 25],[139, 9]]\
 
 
 #### Meta Learner Model 2: XGBoost:
 ##### link to access the Model: [link]()
+-> Accuracy on validation: 0.78\
+-> Confusion Matrix on validation: [[564, 23],[140, 8]]\
 
 
 #### Meta Learner Model 3: Support Vector Machine with RBF Kernerl:
 ##### link to access the Model: [link]()
+-> Accuracy on validation: 0.827\
+-> Confusion Matrix on validation: [[715, 0],[149, 0]]\
 
 
 #### Meta Learner Model 4: Feed Forward Neural Network:
 ##### link to access the Model: [link]()
+-> Accuracy on validation: 0.798\
+-> Confusion Matrix on validation: [[587, 0],[148, 0]]\
 
 
 #### Meta Learner Model 5: K-Nearest Neighbours Classifier:
-##### link to access the Model:
+##### link to access the Model: [link]()
+-> Accuracy on validation: 0.76\
+-> Confusion Matrix on validation: [[550, 37],[140, 8]]\
 
 
 ### Study Results:

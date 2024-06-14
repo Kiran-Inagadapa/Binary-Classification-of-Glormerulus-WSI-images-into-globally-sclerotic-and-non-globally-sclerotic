@@ -30,7 +30,7 @@ The created two preprocessed datasets of training, validation and testing, are t
 -> ResNet50V2 is pretrained on ImageNet Dataset which consists of 1000 classes, to suit this CNN to our Binary Classification requirements, three more layers were added on top, one is Global Average Pooling 2D Layer, A Dropout layer with Regularization parameter set to 0.3, A prediction layer with sigmoid activation that gives a binary output.\
 -> Optimizer: Stochastic Gradient Descent.\
 -> Loss Function: Binary Cross Entropy.\
--> Metrics: Binary Accuracy with threshold set to 0.5.\
+-> Metrics: Binary Accuracy with threshold set to 0.5.
 
 ##### link to access the Base Learner model-1:
 ### Base Learner 2: InceptionV3 trained on images preprocessed with edge detection:
@@ -38,7 +38,7 @@ The created two preprocessed datasets of training, validation and testing, are t
 -> Similar to ResNet50V2, three additional layers were added with same settings.\
 -> Optimizer: Stochastic Gradient Descent.\
 -> Loss Function: Binary Cross Entropy.\
--> Metrics: Binary Accuracy with threshold set to 0.5.\
+-> Metrics: Binary Accuracy with threshold set to 0.5.
 
 ##### link to access the Base Learner model-2:
 ### Meta Learner: Binary Logistic Regression trained on the predictions of the Base Learners:

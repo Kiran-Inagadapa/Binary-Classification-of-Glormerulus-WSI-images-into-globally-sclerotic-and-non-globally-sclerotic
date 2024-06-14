@@ -64,8 +64,10 @@ The created two preprocessed datasets of training, validation and testing, are t
 #### link to access the Base Learner model-2:
 
 #### Plot for Training and Validation Accuracy:
+![download_1](https://github.com/Kiran-Inagadapa/Binary-Classification-of-Glormerulus-WSI-images-into-globally-sclerotic-and-non-globally-sclerotic/assets/124871182/94f987b0-0c04-4104-849c-3df8cc7cb7ad)
 
 #### Plot for Training and Validation Loss:
+![download_2](https://github.com/Kiran-Inagadapa/Binary-Classification-of-Glormerulus-WSI-images-into-globally-sclerotic-and-non-globally-sclerotic/assets/124871182/6bb1c271-f3e2-4358-8b47-6b40389ec27b)
 
 To store the best two learned models out of the each 7 epochs run on each Base Learner model, "tf.keras.callbacks.ModelCheckpoint" have been used.
 

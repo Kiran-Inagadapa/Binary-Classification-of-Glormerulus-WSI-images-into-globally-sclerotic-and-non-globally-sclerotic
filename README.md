@@ -17,6 +17,7 @@ Based on the observations, Preprocessing is employed to create two different set
 2. Saturation Adjustments
 3. Hue Adjustments
 
+#### Color Enhanced and Augumented Images:
 ![download](https://github.com/Kiran-Inagadapa/Binary-Classification-of-Glormerulus-WSI-images-into-globally-sclerotic-and-non-globally-sclerotic/assets/124871182/6b2d2c78-b523-4066-8f64-3de026f3efa6)
 
 ### Techniques employed for preprocessing to extract structure and patterns:
@@ -24,6 +25,7 @@ Based on the observations, Preprocessing is employed to create two different set
 2. Gaussian bluring
 3. Edge Detections using Canny
 
+#### Structure Extracted and Augumented Images:
 ![download](https://github.com/Kiran-Inagadapa/Binary-Classification-of-Glormerulus-WSI-images-into-globally-sclerotic-and-non-globally-sclerotic/assets/124871182/a96f410d-b758-42f2-a6a1-2842ef71e398)
 
 The created two preprocessed datasets of training, validation and testing, are then used to train two different Base Learner models. The Base Learner models are ResNet50V2 adn InceptionV3, both these Image Classification CNNs are pretrained on ImageNet Dataset and have shown very promising results with minimal computational resource requirements.

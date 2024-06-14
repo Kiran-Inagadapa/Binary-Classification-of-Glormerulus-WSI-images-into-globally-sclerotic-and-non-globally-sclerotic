@@ -71,7 +71,25 @@ The created two preprocessed datasets of training, validation and testing, are t
 
 To store the best two learned models out of the each 7 epochs run on each Base Learner model, "tf.keras.callbacks.ModelCheckpoint" have been used.
 
-### Meta Learner: Binary Logistic Regression trained on the predictions of the Base Learners:
+### Meta Learner: Experimented Multiple Algorithms for Meta Learner Model:
+#### Meta Learner Model 1: Random Forest Classifier:
+##### link to access the Model:
 
-##### link to access the Meta Learner:
 
+#### Meta Learner Model 2: XGBoost:
+##### link to access the Model:
+
+
+#### Meta Learner Model 3: Support Vector Machine with RBF Kernerl:
+##### link to access the Model:
+
+
+#### Meta Learner Model 4: Feed Forward Neural Network:
+##### link to access the Model:
+
+
+#### Meta Learner Model 5: K-Nearest Neighbours Classifier:
+##### link to access the Model:
+
+
+### Experience:

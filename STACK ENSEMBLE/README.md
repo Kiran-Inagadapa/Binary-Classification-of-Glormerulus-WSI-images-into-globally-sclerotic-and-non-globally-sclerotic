@@ -73,31 +73,31 @@ To store the best two learned models out of the each 7 epochs run on each Base L
 #### Meta Learner Model 1: Random Forest Classifier:
 ##### link to access the Model: [link](https://drive.google.com/file/d/1mPk1xKoiq7j2QPUu2ju_BDKS4m3DDBZP/view?usp=sharing)
 -> Accuracy on validation: 0.78\
--> Confusion Matrix on validation: [[562, 25],[139, 9]]\
+-> Confusion Matrix on validation: [[562, 25],[139, 9]]
 
 
 #### Meta Learner Model 2: XGBoost:
 ##### link to access the Model: [link](https://drive.google.com/file/d/1ENAj0h8t3Sf3r0V5y0NMGYJTNTkxrDnq/view?usp=sharing)
 -> Accuracy on validation: 0.78\
--> Confusion Matrix on validation: [[564, 23],[140, 8]]\
+-> Confusion Matrix on validation: [[564, 23],[140, 8]]
 
 
 #### Meta Learner Model 3: Support Vector Machine with RBF Kernerl:
 ##### link to access the Model: [link](https://drive.google.com/file/d/1BXuvYHkRqti0ZLAZlCPWLZFhsyoJF3bn/view?usp=sharing)
 -> Accuracy on validation: 0.827\
--> Confusion Matrix on validation: [[715, 0],[149, 0]]\
+-> Confusion Matrix on validation: [[715, 0],[149, 0]]
 
 
 #### Meta Learner Model 4: Feed Forward Neural Network:
 ##### link to access the Model: [link](https://drive.google.com/file/d/1s8pI20Um-K8elDN8wSxG13VDeEc-hB_K/view?usp=sharing)
 -> Accuracy on validation: 0.798\
--> Confusion Matrix on validation: [[587, 0],[148, 0]]\
+-> Confusion Matrix on validation: [[587, 0],[148, 0]]
 
 
 #### Meta Learner Model 5: K-Nearest Neighbours Classifier:
 ##### link to access the Model: [link](https://drive.google.com/file/d/1sEK7zCzu-KmXyMwfWyHm8bJRRaWXmuTd/view?usp=sharing)
 -> Accuracy on validation: 0.76\
--> Confusion Matrix on validation: [[550, 37],[140, 8]]\
+-> Confusion Matrix on validation: [[550, 37],[140, 8]]
 
 
 ### Study Results:
@@ -106,5 +106,6 @@ To store the best two learned models out of the each 7 epochs run on each Base L
 #### Results by the Random Forest Classifier on Resampled Training Data:
 ##### link to access the Model: [link](https://drive.google.com/file/d/1mdLjRTjLlmfdIpSRdVA7eLuBJms4FKcS/view?usp=sharing)
 -> Accuracy: 0.604\
--> Confusion Matrix: [[394, 193],[98, 50]]\
+-> Confusion Matrix: [[394, 193],[98, 50]]
+
 
